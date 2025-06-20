@@ -10,7 +10,11 @@ Undo → Reverses the last operation (either type or delete).
 Redo → Reapplies the last undone operation.
 
 👉 Requirements:
+
 ✅ The editor must support multiple levels of undo and redo (i.e., not just one step).
+
 ✅ Undo/redo should work correctly no matter how many operations the user performs.
+
 ✅ After any new operation (type/delete), redo history should be cleared.
+
 ✅ Your solution should be clean, maintainable, and easy to extend if we want to add more operations (e.g., replace text) in future.
